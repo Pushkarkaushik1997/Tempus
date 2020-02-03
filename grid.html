@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .overlapping ul {
+            display: grid;
+            grid-template-columns:1fr 1fr 2fr 2fr 2fr 2fr 1fr 1fr;
+            grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+            
+        }
+        .overlapping li:nth-child(1) {
+            grid-row: 2 / span 5;
+            grid-column: 1 / span 7;
+            z-index: 0;
+        }
+        .overlapping li:nth-child(2) {
+            grid-row: 1 / span 4; 
+            grid-column: 2 / span 3;
+            z-index: 1;
+        }
+        .overlapping li:nth-child(3) {
+            grid-row: 4 / span 6;
+            grid-column: 4 / span 3;
+            z-index: 2;
+        }
+        img {
+            display: block;
+            width: 100%;
+        }
+        ul {
+            list-style: none;
+            background: #f6f3ea;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/01-003.css">
+    <!-- <script type="text/javascript" src="//fast.fonts.net/jsapi/ebf5328b-b163-42eb-b1bb-bb1a2670e0cd.js"></script> -->
+</head>
+<body>
+
+
+
+
+    <main>
+        <section class="overlapping">
+            <ul class="grid-container">
+                <li>Acheived<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOX3g1SQRuHVEg08jTU5O5WgtdUlERSDHV5Fi2FtOn0Zi1-ci3" alt=""></li>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRq42cRCIj_c278x6YGJJXbU2gMHcdmnufPWAq7J0Zi6QpXWMug" height="100%" alt=""></li>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTxEOVTcvf8wEI1bGPVZrCVADRvWGpFsVzrowss8S1SuQl_xJjK" height="100%" alt=""></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Gathering lightweight statics via Gaug.es -->
+    <!-- <script type="text/javascript">var _gauges = _gauges || []; (function() {var t   = document.createElement('script'); t.type  = 'text/javascript'; t.async = true; t.id    = 'gauges-tracker'; t.setAttribute('data-site-id', '59133cdabad3a70724018023'); t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif'); t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(t, s);})();</script> -->
+    <!-- end stats -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--   
+    <div class="overlapping">
+        <ul class="grid-container">
+            <li>
+                <img src="./assets/images/Purple Paradise.jpg" width="100px" height="300px" alt="">
+            </li>
+            <li>
+                <img src="./assets/images/Lawrencium.jpg" width="100px" height="300px" alt="">
+            </li>
+            <li>
+                <img src="./assets/images/Royal.jpg" width="100px" height="300px" alt="">
+            </li>
+        </ul>
+    </div> -->
+</body>
+
+</html>

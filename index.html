@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="./styles/styles.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <style>
+        .parta,.partc {
+            opacity: 0;
+        }
+
+        .parta.animated, .partc.animated {
+            opacity: 1;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="header">
+            <div class="Menu" id="menu" onclick="OpenNav()">Menu</div>
+            <div class="DownloadBrochure">Download Brochure</div>
+            <div class="Logo">The Turner Copperstones</div>
+            <div class="DisplaySuite">Display Suite</div>
+            <div class="Register">Register</div>
+        </div>
+        <div id="sideNav" class="sideNav">
+            <ul>
+                <li onclick="closeNav()">Close</li>
+                <li>Architecture</li>
+                <li>Interiors</li>
+                <li>Residences</li>
+                <li>Location</li>
+                <li>Team</li>
+            </ul>
+        </div>
+        <div id="Video">
+            <video autoplay muted loop disablePictureInPicture id="myVideo">
+                <source src="./assets/Yeh Jawani Hai Dewani.mkv" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+
+
+
+    <!-- ///////////////////////////////////////////////////////////Middle Content//////////////////////////////////////////////// -->
+
+
+    <div class="SetPositionBelowVideo">
+        <middle>
+            <Section class="row d-flex justify-content-center">
+                <div class="col-lg-10 " style="overflow-y: hidden !important;">
+
+                    <p id="heading" class="parta">Architecture</p>
+
+                    <!-- <h3 id="heading col text-center">
+                    Architecture
+                </h3> -->
+                    <p class="texts col-lg-8 text-center mr-auto ml-auto parta">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Fugiat, quis at quo ea
+                        deserunt consequatur nobis nihil rem, nesciunt sit beatae impedit iste consectetur placeat,
+                        vitae fugit quos! Illum magni libero laudantium distinctio ea cupiditate.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam similique,
+                        distinctio, cumque harum voluptatum architecto et delectus neque laudantium eveniet atque
+                        eius dolor facere, id laboriosam ratione. Omnis iusto quasi molestiae dicta commodi eius ullam
+                        delectus rem, illo aspernatur sint.
+                    </p>
+                    <img src="./assets//images/Mantle.jpg" class="images parta" />
+                </div>
+            </Section>
+
+
+
+
+            <Section class="Section2 d-flex justify-content-center">
+                <div class="col-lg-10 overlapping" style="background-color: brown;">
+                    <h3 id="heading">
+                        FAÇADE FEATURES
+                    </h3>
+
+                    <ul class="grid-container">
+                        <li>
+                        </li>
+                        <li>
+
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+            </Section>
+
+
+
+
+
+
+
+
+            <Section class="Section3">
+                <img src="./assets//images/about-philosophy.jpg" class="images3" />
+                <div class="images3Name">
+                    artist impression
+                </div>
+            </Section>
+
+            <section>
+                <div class="containerClass">
+
+                    <div class="part1">
+                        <img src="./assets//images/agility.jpg" class="images3" />
+                        <div class="innerSection">
+                            <p class="Innertext">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, recusandae!
+                                Perspiciatis nostrum voluptate ratione
+                                accusantium saepe excepturi minima laborum soluta ab quisquam maiores eaque quo quod,
+                                atque porro odit animi ea, officia sequi
+                                odio in accusamus? Nam deserunt quasi voluptate.
+                            </p>
+                            <img src="./assets/images/INTERNNEXUS .png" alt="" class="signature">
+                            <ul class="designation">
+                                <li>Chris Millman</li>
+                                <li>Director and Senior Architect</li>
+                                <li>Cox Architecture</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="part2">
+                        <img src="./assets//images/champion.png" class="images3" />
+                    </div>
+                </div>
+            </section>
+
+            <Section class="Section4">
+                <h3 id="heading">
+                    Interiors
+                </h3>
+                <p class="texts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quis at quo ea
+                    deserunt consequatur nobis nihil rem, nesciunt sit beatae impedit iste consectetur placeat,
+                    vitae fugit quos! Illum magni libero laudantium distinctio ea cupiditate.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam similique,
+                    distinctio, cumque harum voluptatum architecto et delectus neque laudantium eveniet atque
+                    eius dolor facere, id laboriosam ratione. Omnis iusto quasi molestiae dicta commodi eius ullam
+                    delectus rem, illo aspernatur sint.
+                </p>
+                <h3 id="heading">
+                    <span style="border-bottom: black 1px solid; margin-right: 15px;font-weight: 100;"> DAY </span><span
+                        style="font-size: 12px; margin-top: 5px; margin-right: 15px; font-weight: 100;">OR </span><span
+                        style="margin-right: 15px;font-weight: 100;">NIGHT</span>
+                </h3>
+                <img src="./assets//images/about-history.jpg" class="images" />
+                <img src="./assets//images/about-history.jpg" class="images" />
+                <img src="./assets//images/about-history.jpg" class="images" />
+                <img src="./assets//images/about-history.jpg" class="images" />
+                <img src="./assets//images/about-history.jpg" class="images" />
+            </Section>
+
+
+
+            <Section class="Section5">
+                <h3 id="heading" style="font-weight: 100;">
+                    <ul>
+                        <li>KITCHEN</li>
+                        <li>AND</li>
+                        <li>LIVING</li>
+                    </ul>
+                </h3>
+                <img src="./assets//images/about-philosophy.jpg" class="images4" />
+                <div class="images3Name">
+                    artist impression
+                </div>
+            </Section>
+
+            <section>
+                <div class="containerClass2">
+
+                    <div class="part3">
+                        <h3 id="headings">
+                            PREMIUM INCLUSIONS
+                        </h3>
+                        <div class="imageContainer">
+                            <div class="imageSlidesContainer">
+                                <img src="./assets//images/agility.jpg" class="imagesslider" id="image1" />
+                                <img src="./assets//images/agility.jpg" class="imagesslider" id="image2" />
+                                <img src="./assets//images/agility.jpg" class="imagesslider" id="image3" />
+                                <img src="./assets//images/about-history.jpg" class="imagesslider" id="image4" />
+                                <img src="./assets//images/agility.jpg" class="imagesslider" id="image5" />
+                                <img src="./assets//images/agility.jpg" class="imagesslider" id="image6" />
+                                <img src="./assets//images/agility.jpg" class="imagesslider" id="image7" />
+                            </div>
+                        </div>
+                        <div class="dotCotainer">
+                            <div class="dot" onclick="slideImg()"></div>
+                            <div class="dot" onclick="slideImg2()"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <div class="col-7 border-black text-center ml-auto mr-auto mt-3 mb-3 pt-1 pb-1"
+                        style="border: black 1px solid">
+                        Download full inclusion list
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section>
+                <div class="containerClass">
+
+                    <div class="part1">
+                        <img src="./assets//images/agility.jpg" class="images3" />
+                        <img src="./assets//images/champion.png" class="images3" />
+                        <div class="innerSection">
+                            <p class="Innertext">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, recusandae!
+                                Perspiciatis nostrum voluptate ratione
+                                accusantium saepe excepturi minima laborum soluta ab quisquam maiores eaque quo quod,
+                                atque porro odit animi ea, officia sequi
+                                odio in accusamus? Nam deserunt quasi voluptate.
+                            </p>
+                            <div class="part2">
+                                <img src="./assets//images/champion.png" class="images3" />
+                            </div>
+                            <p class="Innertext">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, recusandae!
+                                Perspiciatis nostrum voluptate ratione
+                                accusantium saepe excepturi minima laborum soluta ab quisquam maiores eaque quo quod,
+                                atque porro odit animi ea, officia sequi
+                                odio in accusamus? Nam deserunt quasi voluptate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </middle>
+    </div>
+
+
+    <!-- ///////////////////////////////////////////Footer Content ///////////////////////////////////////////////////////////////////////////-->
+
+    <div class="footerContainer">
+        <footer class="footer">
+            <div class="contactDetails">
+                <ul>
+                    <li>
+                        Enquiries
+                    </li>
+                    <li>
+                        Craig Chapman
+                    </li>
+                    <li>
+                        McGrath Projects
+                    </li>
+                    <li>
+                        +61 408 118 519
+                    </li>
+                    <li>
+                        craigchapman@mcgrath.com.au
+                    </li>
+                    <li>
+                        McGrath | Projects
+                    </li>
+                </ul>
+            </div>
+            <div class="location">
+                <ul>
+                    <li>Sales Centre
+                    </li>
+                    <li>
+                        Corner Forbes + David Streets
+
+                    </li>
+                    <li>
+                        Turner ACT 2612
+                    </li>
+                    <li>
+                        Display Viewings
+
+                    </li>
+                    <li>
+                        by appointment
+
+                    </li>
+                </ul>
+            </div>
+            <div class="disclaimer">
+
+                Disclaimer privacy site by me
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+    
+    <script>
+        function OpenNav() {
+            document.getElementById("sideNav").style.transform = "translateX(400px)"
+            document.getElementById("sideNav").style.transition = "1s"
+        }
+
+        function closeNav() {
+            document.getElementById("sideNav").style.transform = "translateX(-400px)"
+            document.getElementById("sideNav").style.transition = "1s"
+        }
+
+        var video = document.getElementById("myVideo");
+        video.disablePictureInPicture = true
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script>
+        // var waypoint = new Waypoint({
+        //     element: document.getElementById('px-offset-waypoint'),
+        //     handler: function (direction) {
+        //         notify('I am 20px from the top of the window')
+        //     },
+        //     offset: 20
+        // })
+        $(document).ready(function () {
+            $('.partc').waypoint(function (direction) {
+                $('.partc').addClass('animated fadeInUp')
+            }, {
+                offset: '50%'
+            });
+            $('.parta').waypoint(function (direction) {
+                $('.parta').addClass('animated fadeInUp')
+            }, {
+                offset: '600px'
+            });
+        });
+    </script>
+</body>
+
+</html>
